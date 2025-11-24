@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+form input, form textarea {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+/* Ensure slideshow/recruiters stays behind */
+.slideshow-container,
+.slide-track {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Ensure programs section + buttons stay on top */
+.programs-section {
+    position: relative;
+    z-index: 9999;
+}
+
+/* Make buttons clearly clickable */
+.programs-section button {
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.programs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.program-card {
+    background-color: #d5e8f2;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.program-card h3 {
+    font-size: 18px;
+    color: #3b5998;
+}
+
+.program-card p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.learn-more-btn {
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.learn-more-btn:hover {
+    background-color: #e07b00;
+}
+
